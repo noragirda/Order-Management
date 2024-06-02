@@ -19,13 +19,13 @@ MySQL Server
 Maven (for dependency management)
 
 ## Setting Up the Database
-1.Create a database named ordermanager in your MySQL server.
-2.Run the SQL script provided in the sql/database.sql file to create the necessary tables.
+1. Create a database named ordermanager in your MySQL server.
+2. Run the SQL script provided in the sql/database.sql file to create the necessary tables.
 
-##Building and running the app
+## Building and running the app
 Clone the repo 
 
-##Configuration
+## Configuration
 Update the database connection details in the dataAccess/ConnectionFactory.java file:
 
 private static final String URL = "jdbc:mysql://localhost:3306/ordermanager";
